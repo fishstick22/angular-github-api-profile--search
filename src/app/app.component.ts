@@ -3,12 +3,14 @@ import { ActivatedRoute, Router } from '@angular/router';
 
 import { views } from './app-nav-views';
 import { MOBILE } from './services/constants';
+import { GithubService } from './services/github.service';
 
 @Component({
   selector: 'my-app',
   styleUrls: ['main.scss', './app.component.scss'],
   templateUrl: './app.component.html',
-  encapsulation: ViewEncapsulation.None
+  encapsulation: ViewEncapsulation.None,
+  providers: [ GithubService ]
 })
 
 export class AppComponent {

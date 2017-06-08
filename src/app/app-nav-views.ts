@@ -4,6 +4,10 @@ export const views: Object[] = [
     link: ['']
   },
   {
+    name: 'GitHub Profile Searxh',
+    link: ['profile']
+  },
+  {
     name: 'Lazy',
     link: ['lazy']
   },
