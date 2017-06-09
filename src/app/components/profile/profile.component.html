@@ -22,18 +22,26 @@
                 </div>
                 <div class="col-md-8">
                     <div class="stats">
-                        <span class="label label-default">{{user.public_repos}} Public Repos</span>
-                        <span class="label label-primary">{{user.public_gists}} Public Gists</span>
-                        <span class="label label-success">{{user.followers}} Followers</span>
-                        <span class="label label-info">{{user.following}} Following</span>
+                        <button type="button" class="btn btn-secondary">
+                            Public Repos <span class="badge badge-pill badge-default">{{user.public_repos}}</span>
+                        </button>
+                        <button type="button" class="btn btn-secondary">
+                            Public Gists <span class="badge badge-pill badge-default">{{user.public_gists}}</span>
+                        </button>
+                        <button type="button" class="btn btn-secondary">
+                            Followers <span class="badge badge-pill badge-default">{{user.followers}}</span>
+                        </button>
+                        <button type="button" class="btn btn-secondary">
+                            Following <span class="badge badge-pill badge-default">{{user.following}}</span>
+                        </button>
                     </div>
                     <br>
                     <ul class="list-group">
-                        <li class="list-group-item"><strong>Username: </strong>{{user.login}}</li>
-                        <li class="list-group-item"><strong>Location: </strong>{{user.location}}</li> 
-                        <li class="list-group-item"><strong>Email: </strong>{{user.email}}</li> 
-                        <li class="list-group-item"><strong>Blog: </strong>{{user.blog}}</li> 
-                        <li class="list-group-item"><strong>Member Since: </strong>{{user.created_at}}</li> 
+                        <li class="list-group-item "><h5>Username: <small>{{user.login}}</small></h5></li>
+                        <li class="list-group-item"><h5>Location: <small>{{user.location}}</small></h5></li> 
+                        <li class="list-group-item"><h5>Email: <small>{{user.email}}</small></h5></li> 
+                        <li class="list-group-item"><h5>Blog: <small>{{user.blog}}</small></h5></li> 
+                        <li class="list-group-item"><h5>Member Since: <small>{{user.created_at}}</small></h5></li> 
                     </ul>
                 </div>    
             </div>
@@ -52,8 +60,8 @@
                         <p>{{repo.description}}</p>
                     </div>
                     <div class="col-md-3">
-                        <span class="label label-default">{{repo.watchers}} Watchers</span>
-                        <span class="label label-primary">{{repo.forks}} Forks</span>
+                        <span class="badge badge-default">{{repo.watchers}} Watchers</span>
+                        <span class="badge badge-primary">{{repo.forks}} Forks</span>
                     </div>  
                   </div>
                   <hr>
