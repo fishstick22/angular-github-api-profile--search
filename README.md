@@ -7,7 +7,7 @@ The sample code provided in the for-pay course includes this MIT license file, s
 
 Once building this tutorial app using the course samples and instructions, re-implemented using a starter
 
-using @qdouble [Angular Webpack2 Starter bootstrap branch] (https://github.com/qdouble/angular-webpack2-starter/tree/bootstrap)
+using @qdouble [Angular Webpack2 Starter bootstrap branch](https://github.com/qdouble/angular-webpack2-starter/tree/bootstrap)
 
 Also going to tweak the impementation a bit to learn more not covered in the course
 
