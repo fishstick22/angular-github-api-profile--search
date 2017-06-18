@@ -22,7 +22,7 @@ export class GithubService{
 
     getSecrets() {
         return this
-          ._http.request('../github.secrets.json')
+          ._http.request('github.secrets.json')
           .map(res => res.json());
     }
     
