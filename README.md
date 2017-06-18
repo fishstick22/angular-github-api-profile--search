@@ -20,7 +20,7 @@ Also going to tweak the impementation a bit to learn more not covered in the cou
 
 Moved the client id/secret constants out of the github.service.ts file into a github.secrets.json file 
 
-```typescript
+```json
 {
     "username": "xxx",
     "client_id": "xxxxx",
